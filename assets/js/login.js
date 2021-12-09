@@ -47,6 +47,7 @@ $("#form_reg").on("submit", function (e) {
     layer.msg("注册成功，请登录！", function () {
       // 注册成功后切换回登录表单
       $("#link_login").click();
+      
     });
   });
 });
